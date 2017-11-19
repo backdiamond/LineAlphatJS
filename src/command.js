@@ -166,7 +166,8 @@ class Command extends LineAPI {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'ud7fb95cc02f0f7d09898669633520040'}
+            { mid: 'ud7fb95cc02f0f7d09898669633520040',
+            displayname: 'Back Diamond'}
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
