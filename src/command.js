@@ -167,7 +167,7 @@ class Command extends LineAPI {
             contentPreview: null,
             contentMetadata: 
             { mid: 'ud7fb95cc02f0f7d09898669633520040',
-             displayName : 'Back Diamond' }
+             displayName : 'Setio Aji™' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
