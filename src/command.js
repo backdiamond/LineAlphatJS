@@ -188,6 +188,7 @@ admin1() {
         this._sendMessage(this.messages);
  }
     
+    
     resetStateUpload() {
         this.stateUpload = {
             file: '',
