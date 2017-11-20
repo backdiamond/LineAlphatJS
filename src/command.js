@@ -159,19 +159,34 @@ class Command extends LineAPI {
         this.checkReader = [];
         return
     }
+    
+    list() {
+            this._sendMessage(this.messages,`Ketik Keyword Ini Untuk Melihat Admin : Admin1                      Admin2                      Admin3                      Admin4                      Admin5                      Admin6                      Admin7                      Admin8                      Admin9                      Admin10                     Admin11                     Admin12                     Admin13                     Admin14                     Admin15`);
+     }
 
-    creator() {
+creator() {
         let msg = {
             text:null,
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'ud7fb95cc02f0f7d09898669633520040',
-             displayName : 'Setio Aji™' }
+            { mid: 'ud7fb95cc02f0f7d09898669633520040'}
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
-    }
+ }
+
+admin1() {
+        let msg = {
+            text:null,
+            contentType: 13,
+            contentPreview: null,
+            contentMetadata: 
+            { mid: 'ud7fb95cc02f0f7d09898669633520040'}
+        }
+        Object.assign(this.messages,msg);
+        this._sendMessage(this.messages);
+ }
     
     resetStateUpload() {
         this.stateUpload = {
